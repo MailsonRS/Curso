@@ -10,8 +10,10 @@ public class Foreach {
 		for(String nome: aprovados) {
 			System.out.println(nome);
 		}
-		System.out.println("Foreach");
-		aprovados.forEach(nome -> System.out.println(nome));
+		System.out.println("\nLambda #01");
+		aprovados.forEach(nome -> System.out.println(nome + "!!!"));
+		System.out.println("\nMethod reference...");
+		aprovados.forEach(System.out::println);
 	}
 
 }
