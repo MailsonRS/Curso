@@ -1,6 +1,5 @@
 package lambadas;
 
-import java.util.Iterator;
 
 public class Trabalho1 implements Runnable {
 	@Override
